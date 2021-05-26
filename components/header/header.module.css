@@ -33,6 +33,9 @@
 }
 
 @media (max-width: 668px) {
+  .titles {
+    margin-top: 0px;
+  }
   .titles h1 {
     font-size: 3.75rem;
   }

@@ -1,0 +1,39 @@
+.message {
+  width: 50%;
+  background: antiquewhite;
+  margin-top: 60px;
+  padding: 15px;
+  position: relative;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+.message:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 98%;
+  height: 82%;
+  border: 2px solid white;
+}
+
+.copy {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.success {
+  background: #45d133;
+}
+
+.error {
+  background: #d13333;
+}
+/*# sourceMappingURL=message.module.css.map */

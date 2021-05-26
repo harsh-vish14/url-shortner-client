@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Message from "../message/Message";
 import classes from "./header.module.css";
 import Input from "./input";
 

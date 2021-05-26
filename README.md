@@ -19,4 +19,4 @@ npm run dev
 ```
 
 using [vite](https://vitejs.dev/) for react js development
-want to check [server repo]()
+want to check [server repo](https://github.com/harsh-vish14/url-shortner-server)

@@ -16,7 +16,7 @@ function Input() {
       message: "....loading....",
       status: "success",
     });
-    fetch("http://localhost:8000/register-url", {
+    fetch("https://shortsurl.herokuapp.com/register-url", {
       method: "POST",
       body: JSON.stringify({ url: url.current.value }),
       headers: { "Content-Type": "application/json" },

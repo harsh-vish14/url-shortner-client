@@ -19,3 +19,4 @@ npm run dev
 ```
 
 using [vite](https://vitejs.dev/) for react js development
+want to check [server repo]()

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+
+.nav {
+  background-color: var(--nav-background-color);
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Odibee Sans", cursive;
+}
+.logo {
+  font-size: 1.875rem;
+  color: var(--font-color);
+}
+
+.toggler {
+  height: 30px;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.toggler:active {
+  animation: rotate 0.5s ease-in;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}

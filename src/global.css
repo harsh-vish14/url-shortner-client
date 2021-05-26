@@ -1,0 +1,10 @@
+:root {
+  --background-color: #fff;
+  --font-color: black;
+  --nav-background-color: rgb(235, 235, 235);
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--background-color);
+}

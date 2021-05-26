@@ -1,0 +1,46 @@
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 39px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input input {
+  width: 64%;
+  min-width: 200px;
+  padding: 6px;
+  font-size: 20px;
+  outline: none;
+  width: 64%;
+  min-width: 200px;
+  -webkit-box-shadow: 0px 0px 4px 6px #00000029;
+          box-shadow: 0px 0px 4px 6px #00000029;
+  border-radius: 4px;
+}
+
+.input div {
+  font-size: 25px;
+  -webkit-box-shadow: 0px 0px 4px 6px #00000029;
+          box-shadow: 0px 0px 4px 6px #00000029;
+  /* margin: 15px; */
+  background: #185adb;
+  color: #fff;
+  padding: 10px;
+  margin-left: 4px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+/*# sourceMappingURL=input.module.css.map */

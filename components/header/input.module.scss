@@ -1,0 +1,32 @@
+.input {
+  display: flex;
+  //   flex-direction: column;
+  margin-top: 39px;
+  width: 100%;
+  justify-content: center;
+  input {
+    width: 64%;
+    min-width: 200px;
+    padding: 6px;
+    font-size: 20px;
+    outline: none;
+    width: 64%;
+    min-width: 200px;
+    box-shadow: 0px 0px 4px 6px #00000029;
+    border-radius: 4px;
+  }
+  div {
+    font-size: 25px;
+    box-shadow: 0px 0px 4px 6px #00000029;
+    /* margin: 15px; */
+    background: #185adb;
+    color: #fff;
+    padding: 10px;
+    margin-left: 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

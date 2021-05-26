@@ -1,1 +1,43 @@
-/* No CSS *//*# sourceMappingURL=header.module.css.map */
+.header {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.titles {
+  margin-top: -100px;
+  text-align: center;
+}
+
+.titles h1 {
+  font-size: 4.375rem;
+}
+
+.titles h3 {
+  font-size: 1.875rem;
+}
+
+.titles span {
+  color: #f50808;
+}
+
+@media (max-width: 668px) {
+  .titles h1 {
+    font-size: 3.75rem;
+  }
+  .titles h3 {
+    font-size: 1.25rem;
+  }
+}
+/*# sourceMappingURL=header.module.css.map */

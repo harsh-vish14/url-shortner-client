@@ -1,0 +1,31 @@
+.header {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titles {
+  margin-top: -100px;
+  text-align: center;
+  h1 {
+    font-size: 4.375rem;
+  }
+  h3 {
+    font-size: 1.875rem;
+  }
+  span {
+    color: rgb(245, 8, 8);
+  }
+}
+
+@media (max-width: 668px) {
+  .titles {
+    h1 {
+      font-size: 3.75rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
+}

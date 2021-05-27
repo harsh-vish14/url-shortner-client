@@ -6,19 +6,8 @@
   position: relative;
   font-size: 20px;
   border-radius: 4px;
-  border: 1px solid white;
-}
-
-.message:after {
-  position: absolute;
-  content: "";
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 98%;
-  height: 82%;
-  border: 2px solid white;
+  outline: 2px solid white;
+  outline-offset: -4px;
 }
 
 .copy {
@@ -27,7 +16,6 @@
   right: 10px;
   font-size: 20px;
   cursor: pointer;
-  z-index: 1;
 }
 
 .success {

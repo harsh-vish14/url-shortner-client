@@ -11,7 +11,7 @@ function Message({ message, status }) {
           : `${classes.error} ${classes.message}`
       }
     >
-      <div>{message}</div>
+      <div style={{ overflow: "hidden" }}>{message}</div>
       <div
         style={{ display: status === "success" ? "" : "none" }}
         className={classes.copy}
